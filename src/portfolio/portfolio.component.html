@@ -1,0 +1,16 @@
+<div class="row">
+    @for (product of products; track $index) {
+    
+         <div class="col-md-4">
+             <div class="card">                
+                 <img class="card-img-top" [src]= "product.image" alt="">
+                 <h3> {{product.title}} </h3>
+             </div>
+         </div>
+     }
+     
+    
+    @empty {
+     <h2>No data found</h2>
+    }
+ </div>

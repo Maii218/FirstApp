@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/FirstApp": {},
+    "/FirstApp/about": {},
+    "/FirstApp/home": {},
+    "/FirstApp/portfolio": {}
+  }
+}
